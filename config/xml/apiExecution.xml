@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ApiTestSuite" verbose="1" data-provider-thread-count="1">
+	<listeners>
+		<listener class-name="com.test.api.listeners.WebDriverListener"></listener>
+	</listeners>
+	<test name="EndPointsTest" group-by-instances="true">
+		<classes>
+			 <class name="com.test.api.testcases.WeatherInfoServiceTests" />
+		</classes>
+	</test>
+</suite>

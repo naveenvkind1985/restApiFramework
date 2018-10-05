@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ApiTestSuite" duration-ms="10402" started-at="2018-10-05T16:28:42Z" finished-at="2018-10-05T16:28:52Z">
+    <groups>
+    </groups>
+    <test name="EndPointsTest" duration-ms="10402" started-at="2018-10-05T16:28:42Z" finished-at="2018-10-05T16:28:52Z">
+      <class name="com.test.api.testcases.WeatherInfoServiceTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeSuite" is-config="true" duration-ms="23" started-at="2018-10-05T21:58:42Z" finished-at="2018-10-05T21:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeClass" is-config="true" duration-ms="579" started-at="2018-10-05T21:58:42Z" finished-at="2018-10-05T21:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-05T21:58:43Z" finished-at="2018-10-05T21:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-10-05T21:58:43Z" finished-at="2018-10-05T21:58:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="InfoService(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="InfoService" duration-ms="3254" started-at="2018-10-05T21:58:43Z" data-provider="testData" finished-at="2018-10-05T21:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[verifyWeatherInfoService]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[application/json; charset=UTF-8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfoService -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-10-05T21:58:46Z" finished-at="2018-10-05T21:58:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="InfoService(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="InfoService" duration-ms="1065" started-at="2018-10-05T21:58:47Z" data-provider="testData" finished-at="2018-10-05T21:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[verifyWeatherInfoService-City-Country]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London,uk&appid=b6907d289e10d714a6e88b30761fae22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://samples.openweathermap.org/data/2.5/weather?q=]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[application/json; charset=UTF-8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfoService -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-10-05T21:58:48Z" finished-at="2018-10-05T21:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="InfoService(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="InfoService" duration-ms="893" started-at="2018-10-05T21:58:48Z" data-provider="testData" finished-at="2018-10-05T21:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[verifyWeatherInfoService-City]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London&appid=b1b15e88fa797225412429c1c50c122a1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://samples.openweathermap.org/data/2.5/find?q=]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[application/json; charset=UTF-8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfoService -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-10-05T21:58:48Z" finished-at="2018-10-05T21:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="InfoService(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="InfoService" duration-ms="879" started-at="2018-10-05T21:58:48Z" data-provider="testData" finished-at="2018-10-05T21:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[verifyWeatherInfoService-Lat-Long]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lat=57&lon=-2.15&cnt=3&appid=b1b15e88fa797225412429c1c50c122a1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://samples.openweathermap.org/data/2.5/find?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[application/json; charset=UTF-8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfoService -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-05T21:58:49Z" finished-at="2018-10-05T21:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="InfoService(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="InfoService" duration-ms="1394" started-at="2018-10-05T21:58:49Z" data-provider="testData" finished-at="2018-10-05T21:58:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[verifyWeatherInfoService-Box]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bbox=12,32,15,37,10&appid=b1b15e88fa797225412429c1c50c122a1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://samples.openweathermap.org/data/2.5/box/city?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[application/json; charset=UTF-8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfoService -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-05T21:58:51Z" finished-at="2018-10-05T21:58:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="InfoService(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="InfoService" duration-ms="420" started-at="2018-10-05T21:58:51Z" data-provider="testData" finished-at="2018-10-05T21:58:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[verifyWeatherInfoService-History]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://history.openweathermap.org/data/2.5/history/city?q=London,UK]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[application/json; charset=UTF-8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at com.test.api.testcases.WeatherInfoServiceTests.InfoService(WeatherInfoServiceTests.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfoService -->
+        <test-method status="PASS" signature="InfoService(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="InfoService" duration-ms="1189" started-at="2018-10-05T21:58:51Z" data-provider="testData" finished-at="2018-10-05T21:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[verifyWeatherInfoService-Accumulated-Temperature]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lat=37.75&lon=-122.37&threshold=284&start=1517502031&end=1519834831&appid=b1b15e88fa797225412429c1c50c122a1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://samples.openweathermap.org/agro/1.0/weather/history/accumulated_temperature?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[application/json; charset=UTF-8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfoService -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-05T21:58:51Z" finished-at="2018-10-05T21:58:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.api.testcases.WeatherInfoServiceTests.InfoService(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.api.testcases.WeatherInfoServiceTests@73ad2d6]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-10-05T21:58:52Z" finished-at="2018-10-05T21:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.api.testcases.WeatherInfoServiceTests -->
+    </test> <!-- EndPointsTest -->
+  </suite> <!-- ApiTestSuite -->
+</testng-results>

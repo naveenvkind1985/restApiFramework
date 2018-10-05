@@ -1,8 +1,11 @@
 Welcome to the Selenium-JAVA-API-TDD-Framework
+
 This project is created with one of the Open Source Automation tools such as Selenium, TestNG, Extent Report, Maven, and JAVA with TDD approach. 
+
 Let’s get into a few details of this API project create on to tests to get weather using Open Weather API with the below URL
 http://openweathermap.org/current.  But the sample API's which you see in the UI of this page won’t be working as its not having any API id's to fetch you any details.
 To get the proper Endpoints of the sample API's one has to inspect the element and get the proper endpoints from the source file itself.
+
 Approach
 	This has been implemented with latest version of Selenium and Maven ensuring that all dependencies & plug-in will be installed in your local the moment this project is cloned in local system.
 	Moreover , it has been designed with one of the very popular and latest design patterns "Page Object Model" with "Page factory" which brings out a flavor of well readability , re-usability and easy maintenance as if it goes for continuous development and integration down the line.

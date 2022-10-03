@@ -1,0 +1,5 @@
+
+Scenario Outline: Get Quotation from endpoint                                          # src/test/resources/features/Sample.feature:12
+  Given user has access to endpoint "/IIRIS_ECRM_API_UAT/webapi/MotorApi/GetQuotation" # com.api.stepdefinition.GetQuotationStepdefinition.userHasAccessToEndpoint(java.lang.String)
+  When user creates a quotation from JSON file "GetQuotation.json"                     # com.api.stepdefinition.GetQuotationStepdefinition.userCreatesAQuotationUsingDataFromJSONFile(java.lang.String)
+  Then user should get the response code 200                                           # com.api.stepdefinition.GetQuotationStepdefinition.userShouldGetTheResponseCode(java.lang.Integer)

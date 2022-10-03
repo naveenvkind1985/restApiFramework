@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-03T12:53:27.002Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4287000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.api.stepdefinition.Hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Get Quotation from endpoint",
+        "description": "",
+        "id": "get-quotation;get-quotation-from-endpoint;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3601000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has access to endpoint \"/IIRIS_ECRM_API_UAT/webapi/MotorApi/GetQuotation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/IIRIS_ECRM_API_UAT/webapi/MotorApi/GetQuotation\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.api.stepdefinition.GetQuotationStepdefinition.userHasAccessToEndpoint(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3167276000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user creates a quotation from JSON file \"GetQuotation.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetQuotation.json\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.api.stepdefinition.GetQuotationStepdefinition.userCreatesAQuotationUsingDataFromJSONFile(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2712000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should get the response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "com.api.stepdefinition.GetQuotationStepdefinition.userShouldGetTheResponseCode(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get Quotation",
+    "description": "",
+    "id": "get-quotation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Sample.feature",
+    "tags": []
+  }
+]

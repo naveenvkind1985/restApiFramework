@@ -1,0 +1,50 @@
+{
+  "Auth": {
+    "UserName": "SHORY",
+    "Password": "123456"
+  },
+  "CurrencyCode": "AED",
+  "QuoteReferenceNo": "V6U6Z7B0007078h",
+  "ProductCode": "072",
+  "QuoteTypeCode": "1",
+  "PolicyEffectiveDate": "2022-10-05T12:07:28+04:00",
+  "Owner": {
+    "IdentityTypeCode": 1,
+    "EmiratesIDNo": "784198560386538",
+    "CommercialNo": null,
+    "LicenceIssueDate": "2005-06-18",
+    "NationalityCode": "1",
+    "Age": 26,
+    "HasOtherCountryLicense": false,
+    "OtherCountryLicenseCode": 0,
+    "OtherCountryLicenseYears": 0,
+    "DateOfBirth": "1995-10-04"
+  },
+  "Car": {
+    "IdentityTypeCode": 1,
+    "MakeCode": "050",
+    "Make": "CHEVROLET",
+    "ModelCode": "050031",
+    "Model": "TRAILBLAZER",
+    "BodyCategoryCode": "2",
+    "ManufactureYear": "2002",
+    "PassengersNo": "5",
+    "Cylinders": "6",
+    "RegistrationDate": "2014-05-12",
+    "PlaceofIssueCityCode": "1",
+    "ChassisNo": "1GNDT13S322080728",
+    "EstimatedValue": "42000",
+    "SpecCode": 1,
+    "UsageCode": "1",
+    "Trim": null,
+    "TrimCode": null
+  },
+  "CurrentInsuranceTypeCode": "3",
+  "ClaimsHistoryCode": 4,
+  "ClaimsCount": null,
+  "IsRenewal": false,
+  "HasAdditionalDrivers": false,
+  "AdditionalDrivers": null,
+  "HasScheme": false,
+  "SchemeInfo": null
+}

@@ -1,0 +1,49 @@
+03-10-2022 14:53:27 INFO  Hooks:15 - *****************************************************************************************
+03-10-2022 14:53:27 INFO  Hooks:16 - 	Scenario: Get Quotation from endpoint
+03-10-2022 14:53:27 INFO  Hooks:17 - *****************************************************************************************
+03-10-2022 14:53:30 INFO  RestAssuredRequestFilter:18 - -----------------------------------------------------------------------------------------
+03-10-2022 14:53:30 INFO  RestAssuredRequestFilter:19 -  Request Method => POST
+ Request URI => https://cportal.takaful.ae:92/IIRIS_ECRM_API_UAT/webapi/MotorApi/GetQuotation
+ Request Header =>
+Accept=application/json
+Content-Type=application/json; charset=UTF-8
+ Request Body => {"Owner":{"DateOfBirth":"1995-10-04","EmiratesIDNo":"784198560386538","HasOtherCountryLicense":false,"LicenceIssueDate":"2005-06-18","NationalityCode":"1","CommercialNo":null,"IdentityTypeCode":1,"OtherCountryLicenseYears":0,"Age":26,"OtherCountryLicenseCode":0},"CurrentInsuranceTypeCode":"3","ProductCode":"072","ClaimsHistoryCode":4,"IsRenewal":false,"CurrencyCode":"AED","QuoteReferenceNo":"V6U6Z7B0007078h","ClaimsCount":null,"PolicyEffectiveDate":"2022-10-05T12:07:28+04:00","Car":{"SpecCode":1,"UsageCode":"1","ModelCode":"050031","RegistrationDate":"2014-05-12","ChassisNo":"1GNDT13S322080728","Trim":null,"MakeCode":"050","PassengersNo":"5","Make":"CHEVROLET","IdentityTypeCode":1,"ManufactureYear":"2002","BodyCategoryCode":"2","Model":"TRAILBLAZER","TrimCode":null,"PlaceofIssueCityCode":"1","EstimatedValue":"42000","Cylinders":"6"},"Auth":{"UserName":"SHORY","Password":"123456"},"QuoteTypeCode":"1","SchemeInfo":null,"HasScheme":false,"AdditionalDrivers":null,"HasAdditionalDrivers":false}
+
+ Response Status => HTTP/1.1 200 OK
+ Response Header =>
+Cache-Control=no-cache
+Pragma=no-cache
+Content-Length=377
+Content-Type=application/json; charset=utf-8
+Expires=-1
+Server=Microsoft-IIS/8.5
+Server=Microsoft-IIS/7.5
+X-AspNet-Version=4.0.30319
+X-Powered-By=ASP.NET
+X-Powered-By=ASP.NET
+Date=Mon, 03 Oct 2022 12:53:30 GMT
+ Response Body => {
+    "CurrencyCode": null,
+    "QuoteReferenceNo": null,
+    "QuotationNo": null,
+    "QuotationExpiryDate": null,
+    "PolicyEffectiveDate": null,
+    "PolicyExpiryDate": null,
+    "TempPolicyNumber": null,
+    "RequiredInspectionCode": null,
+    "IncludedFeatures": null,
+    "ExtraFeatures": null,
+    "Offers": null,
+    "StatusCode": "2",
+    "Errors": [
+        {
+            "code": "E100",
+            "field": "QuoteReferenceNo",
+            "message": "Quotation Reference No. Already Exists"
+        }
+    ]
+}
+03-10-2022 14:53:30 INFO  RestAssuredRequestFilter:26 - -----------------------------------------------------------------------------------------
+03-10-2022 14:53:30 INFO  MyTestListener:30 - *****************************************************************************************
+03-10-2022 14:53:30 INFO  MyTestListener:31 - 	Scenario: Get Quotation from endpoint --> PASSED
+03-10-2022 14:53:30 INFO  MyTestListener:32 - *****************************************************************************************
